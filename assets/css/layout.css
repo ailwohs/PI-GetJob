@@ -1,0 +1,22 @@
+.lala {
+    box-shadow: 0 0 30px rgb(151, 149, 149);
+    transform: skew(0deg);
+    grid-template-columns: 1fr;
+    transition: all 0.25s cubic-bezier(.59, -0.75, .34, 1.84);
+    transform-origin: center;
+    transform: scale(1.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    font-size: 1px;
+}
+
+.tata {
+    color: white;
+    text-align: center;
+}

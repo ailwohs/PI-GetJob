@@ -1,0 +1,47 @@
+.bck {
+    background-color: rgb(102, 101, 101);
+    padding: 100px;
+}
+
+.sl1 {
+    border: 2px solid rgb(31, 30, 30);
+}
+
+img.sl1 {
+    border: 4px dashed rgb(243, 243, 243);
+    padding: 10px;
+}
+
+.c {
+    margin-top: 10px;
+}
+
+div,
+h2 {
+    /* font-family:'Times New Roman'; */
+}
+
+p {
+    color: rgb(241, 241, 241);
+}
+
+.info-person {
+    font-size: 22px;
+    display: inline-block;
+    padding: 10px 30px 0px 0px;
+}
+
+.info-person .radio {
+    display: none;
+}
+
+.info-person .list-1:checked+.tab,
+.info-person .list-2:checked+.tab {
+    border-color: white;
+}
+
+.info-person .tab {
+    margin-right: 15px;
+    border-bottom: 2px solid transparent;
+    text-transform: uppercase;
+}

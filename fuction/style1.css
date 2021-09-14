@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #2a2a2a, #4b4c4d);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+/*Main*/
+
+main.container {
+    font-weight: 400;
+    /*background: rgb(22, 22, 22);*/
+    background: #ffffff;
+    max-width: 400px;
+    min-height: 70vh;
+    padding: 1rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.794);
+    border-radius: 8px;
+    margin-top: 40px;
+    min-width: 50%;
+}
+
+main p {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+main p::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 25px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+}
+
+main h1::before {
+    content: '';
+    position: absolute;
+    height: 6px;
+    width: 25px;
+    bottom: 6px;
+    left: 0;
+    border-radius: 16px;
+}
+
+
+/*main form input {
+    background: rgb(255, 255, 255);
+    width: 550px;
+    height: 25px;
+    margin-top: 0.5rem;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}*/
+
+main form label {
+    /*background: rgba(63, 62, 62, 0.829);*/
+}
+
+main form select {
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+
+/*INput*/
+
+.input-field {
+    position: relative;
+}
+
+form .input-field:first-child {
+    margin-bottom: 1.5rem;
+}
+
+.input-field .underline::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+
+/*.input-field .underline::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient( 45deg, #000000, #C0C0C0);
+}*/
+
+.input-field input {
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+    transition: all 1s ease-in-out;
+    border-bottom: 1px solid transparent;
+}
+
+.input-field input:active,
+.input-field input:focus {
+    outline: none !important;
+    /*border: none !important;**/
+    border-bottom: 1px solid black;
+}
+
+.input-field {
+    position: relative;
+}
+
+.efeito {
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    left: 0;
+    right: 0;
+    background: black;
+    width: 1px;
+    transition: all 1s;
+}
+
+.input-field input:focus+div {
+    width: 100%;
+}
+
+.input-field input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*Form */
+
+form input[type="submit"] {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background: linear-gradient(to left, #2a2a2a, rgb(68, 67, 67));
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to left, #2a2a2a, rgb(73, 73, 73));
+}
+
+.font1 {
+    font-size: 25px;
+}

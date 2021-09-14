@@ -1,0 +1,25 @@
+@import "app.css";
+@import "cadStyle.css";
+@import "form.css";
+@import "layout.css";
+@import "style_user.css";
+@import "serv.css";
+
+@import "work.css";
+
+
+
+.email {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 300px;
+  padding: 10px;
+  height: 120px;
+}
+
+.senha {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 300px;
+  padding: 10px;
+}
